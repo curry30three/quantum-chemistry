@@ -14,17 +14,21 @@ $b_i = \sum_j O_{ij} a_j$
 $a(x')$
 是
 $a(x) = \sum_{i} \psi_{i}(x) a_{i}$
-可以看作类似傅立叶级数组合并定义
-$\int_{x_1}^{x_2} dx \psi_{i}^{*}(x) \psi_{j}(x) = \delta_{ij}$
-现在引入无限完备基组
-$\int dx |x\rangle \langle x| = 1$
-类似于之前的向量基组完备定义  
-$\int dx \langle a|x \rangle \langle x|b \rangle = \langle a|b \rangle$
-$|b \rangle$
-可以看作是之前的向量空间中的一个基或一个向量，
-$\langle x|b \rangle$
-就视为在向量空间中的基或向量在函数基中的投影，投影的值就是在该x值时的值  
+可以看作类似傅立叶级数组合并定义：
+$$
+\int_{x_1}^{x_2} dx \, \psi_{i}^{*}(x) \psi_{j}(x) = \delta_{ij}
+$$
+现在引入无限完备基组：
+$$
+\int dx \, |x\rangle \langle x| = 1
+$$
+这类似于之前的向量基组完备定义，可以推导出：
+$$
+\int dx \, \langle a|x \rangle \langle x|b \rangle = \langle a|b \rangle
+$$
+在这里，$|b \rangle$ 可以看作是向量空间中的一个向量，而 $\langle x|b \rangle$ 就视为该向量在位置基 $|x\rangle$ 上的投影，其结果就是波函数在该点的值。因此，我们有如下对应关系：
 $\psi_i^*(x) = \langle i|x \rangle$ , $\psi_j(x) = \langle x|j \rangle$
+
 
 **变分法**\
 **the vatiation method**
