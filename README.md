@@ -20,8 +20,10 @@ $b_i = \sum_j O_{ij} a_j$
 \int dx \, |x\rangle \langle x| = \hat{1}
 类似于之前的向量基组完备定义，可以得到：
 \langle a|b \rangle = \int dx \, \langle a|x \rangle \langle x|b \rangle  
-在这里，$|b \rangle$ 可以看作是之前的向量空间中的一个基或一个向量，  
-而 $\langle x|b \rangle$ 就视为在向量空间中的基或向量在函数基中的投影，  
+在这里，$|b \rangle$ 可以看作是之前的向量空间中的一个基或一个向量，
+
+而 $\langle x|b \rangle$ 就视为在向量空间中的基或向量在函数基中的投影，
+
 投影的值就是在该 $x$ 值时的值。    
 因此，我们有对应关系：
 \psi_i^*(x) = \langle i|x \rangle, \quad \psi_j(x) = \langle x|j \rangle
