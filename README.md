@@ -10,10 +10,7 @@ $b(x)=Oa(x)=\int dx' O(x, x')a(x')$
 for the vector
 $b_i = \sum_j O_{ij} a_j$
 
-这个里面的
-$a(x')$
-是
-$a(x) = \sum_{i} \psi_{i}(x) a_{i}$
+这个里面的 $a(x')$ 是 $a(x) = \sum_{i} \psi_{i}(x) a_{i}$
 这是狄拉克符号 (Dirac Notation) 在量子力学中的应用，
 它将函数空间与向量空间联系起来。
 可以看作类似傅立叶级数的定义：
