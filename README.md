@@ -15,7 +15,7 @@ $a(x')$
 是
 $a(x) = \sum_{i} \psi_{i}(x) a_{i}$  
 可以看作类似傅立叶级数组合并定义
-$\int_{x_1}^{x_2} dx \psi_{i}^{*}(x) \psi_{j}(x) = \delta_{ij}$  
+$\int_{x_1}^{x_2} dx \psi_{i}^{*}(x) \psi_{j}(x) = \delta_{ij}$
 现在引入无限完备基组
 $\int dx |x\rangle \langle x| = 1$
 类似于之前的向量基组完备定义  
