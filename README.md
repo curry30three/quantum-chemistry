@@ -16,7 +16,7 @@ $b_i = \sum_j O_{ij} a_j$
 ```math
 \int_{x_1}^{x_2} dx \, \psi_{i}^{*}(x) \psi_{j}(x) = \delta_{ij}
 >可以看作类似傅立叶级数的定义
-现在引入无限完备基组：
+现在引入无限完备基组
 \int dx \, |x\rangle \langle x| = \hat{1}
 类似于之前的向量基组完备定义，可以得到：
 \langle a|b \rangle = \int dx \, \langle a|x \rangle \langle x|b \rangle  
