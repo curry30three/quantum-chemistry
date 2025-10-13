@@ -15,6 +15,7 @@ $b_i = \sum_j O_{ij} a_j$
 现在引入无限完备基组 $\int dx |x\rangle \langle x| = 1$ 类似于之前的向量基组完备定义  
 $\int dx \langle a|x \rangle \langle x|b \rangle = \langle a|b \rangle$  
 $|b \rangle$ 可以看作是之前的向量空间中的一个基或一个向量， $\langle x|b \rangle$ 就视为在向量空间中的基或向量在函数基中的投影，投影的值就是在该x值时的值  
+于是 $\psi_i^*(x) = \langle i|x \rangle$ $\quad \psi_j(x) = \langle x|j \rangle$
 
 **变分法**\
 **the vatiation method**
