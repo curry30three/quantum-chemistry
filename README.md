@@ -22,12 +22,16 @@ $$
 $$
 \int dx \, |x\rangle \langle x| = 1
 $$
-这类似于之前的向量基组完备定义，可以推导出：
+类似于之前的向量基组完备定义，可以得到：
 $$
 \int dx \, \langle a|x \rangle \langle x|b \rangle = \langle a|b \rangle
 $$
-在这里，$|b \rangle$ 可以看作是向量空间中的一个向量，而 $\langle x|b \rangle$ 就视为该向量在位置基 $|x\rangle$ 上的投影，其结果就是波函数在该点的值。因此，我们有如下对应关系：
-$\psi_i^*(x) = \langle i|x \rangle$ , $\psi_j(x) = \langle x|j \rangle$
+在这里，$|b \rangle$ 可以看作是之前的向量空间中的一个基或一个向量，而 $\langle x|b \rangle$ 就视为在向量空间中的基或向量在函数基中的投影，投影的值就是在该 $x$ 值时的值。  
+
+因此，我们有对应关系：
+$$
+\psi_i^*(x) = \langle i|x \rangle, \quad \psi_j(x) = \langle x|j \rangle
+$$
 
 
 **变分法**\
